@@ -1,0 +1,14 @@
+title: Haripriya Mekala
+description: Data Analyst Portfolio
+theme: jekyll-theme-cayman
+
+# Navigation links
+nav:
+  - name: Home
+    link: /
+  - name: Projects
+    link: /projects
+  - name: About
+    link: /about
+  - name: Contact
+    link: /contact
