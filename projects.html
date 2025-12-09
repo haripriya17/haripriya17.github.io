@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Priya's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f0f4f8;
+      color: #1b2b49;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: linear-gradient(135deg, #d0e4ff, #1b2b49);
+      color: #ffffff;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+    .project-card {
+      background: #ffffff;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    }
+    .project-card h2 {
+      margin-bottom: 0.8rem;
+      font-size: 1.6rem;
+      color: #1b2b49;
+    }
+    .project-card p {
+      font-size: 1.05rem;
+      color: #3a4c6b;
+      margin-bottom: 1rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      margin-right: 0.5rem;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      color: #ffffff;
+      background: #1b2b49;
+      transition: background 0.3s, transform 0.3s;
+    }
+    .btn:hover {
+      background: #3a4c6b;
+      transform: translateY(-2px);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #d0e4ff;
+      color: #1b2b49;
+      margin-top: 3rem;
+      border-top: 2px solid #a0c8ff;
+      border-radius: 0 0 15px 15px;
+    }
+    @media (max-width: 768px) {
+      header h1 { font-size: 2.2rem; }
+      main { padding: 0.5rem; grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Projects</h1>
+    <p>My Data Analytics Portfolio</p>
+  </header>
+
+  <main>
+    <div class="project-card">
+      <h2>Instacart Targeted Marketing Analysis</h2>
+      <p>Analyzed customer demographics and purchasing behavior using Excel and Tableau to uncover actionable insights.</p>
+      <a class="btn" href="https://github.com/haripriya17/instacart-basket-analysis" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h2>Rockbuster Streaming Analysis</h2>
+      <p>Performed analysis on streaming data to identify trends and patterns, visualized using Excel and Tableau dashboards.</p>
+      <a class="btn" href="https://github.com/haripriya17/Rockbuster-Data-Analysis" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h2>Flu Forecasting Analysis</h2>
+      <p>Predicted flu trends using historical data, visualized insights interactively with Tableau dashboards.</p>
+      <a class="btn" href="https://public.tableau.com/app/profile/haripriya.m4784/viz/Book1_17519100194410/Story1" target="_blank">View on Tableau</a>
+    </div>
+
+    <div class="project-card">
+      <h2>GameCo Financial Analysis</h2>
+      <p>Analyzed GameCo financial data to identify key performance metrics and trends using Excel and Tableau.</p>
+      <a class="btn" href="https://drive.google.com/file/d/1GBFYDMHG9F-PCaZDsgiRLaAxVpuShZCZ/view?usp=drive_link" target="_blank">View Report</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Priya Mekala</p>
+  </footer>
+</body>
+</html>
