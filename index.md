@@ -1,11 +1,16 @@
+---
+layout: default
+---
 {% include header.html %}
-## Data Analyst Portfolio
+
+# Haripriya Mekala  
+### Data Analyst Portfolio
 
 Welcome to my portfolio!  
-I specialize in data analysis, visualization, and storytelling using Excel, SQL, Python, and Tableau.
+I specialize in Excel, SQL, Python, Tableau, and data storytelling.
 
-### 📊 Featured Projects
+### 🔥 Featured Projects
 
-- [Instacart Targeted Marketing Analysis](https://github.com/haripriya17/instacart-basket-analysis)  
-- [Rockbuster Data Analysis](https://github.com/haripriya17/Rockbuster-Data-Analysis)  
-- [GameCo Financial Analysis](https://github.com/haripriya17/GameCo-Financial-Analysis)
+- [Instacart Targeted Marketing Analysis](https://github.com/haripriya17/instacart-basket-analysis)
+- [Rockbuster SQL Analysis](https://github.com/haripriya17/Rockbuster-Data-Analysis)
+- [Flu Forecasting Tableau Dashboard](https://public.tableau.com/app/profile/haripriya.m4784/viz/Book1_17519100194410/Story1)
