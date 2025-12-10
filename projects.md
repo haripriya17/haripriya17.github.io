@@ -1,3 +1,8 @@
+---
+layout: default
+---
+{% include header.html %}
+
 # Projects
 
 ## Instacart Targeted Marketing
