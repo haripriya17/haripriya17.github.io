@@ -1,3 +1,8 @@
+---
+layout: default
+---
+{% include header.html %}
+
 # About Me
 
 I am a Data Analyst with experience in Excel, SQL, Python, and Tableau.  
