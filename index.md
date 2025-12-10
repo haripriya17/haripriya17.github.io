@@ -1,3 +1,8 @@
+---
+layout: default
+---
+{% include header.html %}
+
 # Haripriya Mekala
 ## Data Analyst Portfolio
 
