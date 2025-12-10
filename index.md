@@ -1,6 +1,4 @@
 {% include header.html %}
-
-# Haripriya Mekala
 ## Data Analyst Portfolio
 
 Welcome to my portfolio!  
